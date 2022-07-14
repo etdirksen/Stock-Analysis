@@ -110,12 +110,12 @@ There are many advantages to refactoring code in general. One advantage that has
 ### Disadvantages of refactoring in general
 Refactoring code is a time consuming and often difficult task. Reducing the time that it takes for any code to run requires forming a better solution to the problem at hand. The greater the solution, the greater the gains when the solution is implemented. Oftentimes, forming and implementing that better solution takes some order of magnitude of time and many different resources. In rare cases, there may not be a better solution to use as there are hard limits to the simplicity of the code. As code gets simpler and simpler, readability also decreases. If the code is extremely complex but offers the best solution, readability and editability are decreased.
 
-### Advantages of the original & refactored the VBA script
+### Advantages of the original & the refactored VBA script
 The advantages of the old code are that it stood as the foundation for the new code to be based on. There was not much changed in the new code in order to reduce the runtime. Of course, there are no advantages to the old code when compared to the new code. 
 
 The advantages of this refactor are obvious - to summarize, the new code will almost always take about 1/10 of the time to finish running compared to the old code because of better logic (in our case, this is how many times we output the data). 
 
-### Disadvantages of the original & refactored the VBA script
+### Disadvantages of the original & the refactored VBA script
 The disadvantages of the old code are that it was slow. If you imagine having thousands of different stocks to analyze, this code would be running for several minutes per year.
 
 I think the disadvantages of the refactored code are that while it is much faster and more efficient than the old code, it is only useful for the 12 stocks that are currently listed. You would have to change the size of each array and possibly the number of arrays to fit more stocks if there were more, and you would have to write out each stock ticker by hand as every stock ticker is hard coded. It would be much better to create variables to store the different stock tickers as they are found in the data table. Of course the problem with implementing this better logic is the time that it would take to write a solution that fits within the rules of the language.
