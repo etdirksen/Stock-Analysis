@@ -15,11 +15,11 @@ The results of the refactor of our subroutine are astounding! We have reduced th
 
 Before:
 
-![Before refactoring: 2017](https://github.com/etdirksen/stock-analysis/blob/main/VBA_Challenge/Before_2017.png) ![After refactoring: 2018](https://github.com/etdirksen/stock-analysis/blob/main/VBA_Challenge/Before_2018.png)
+![Before refactoring: 2017](https://github.com/etdirksen/stock-analysis/blob/main/Resources/Before_2017.png) ![After refactoring: 2018](https://github.com/etdirksen/stock-analysis/blob/main/Resources/Before_2018.png)
 
 After[^1]:
 
-![After refactoring: 2017](https://github.com/etdirksen/stock-analysis/blob/main/VBA_Challenge/After_2017.png) ![After refactoring: 2018](https://github.com/etdirksen/stock-analysis/blob/main/VBA_Challenge/After_2018.png)
+![After refactoring: 2017](https://github.com/etdirksen/stock-analysis/blob/main/Resources/After_2017.png) ![After refactoring: 2018](https://github.com/etdirksen/stock-analysis/blob/main/Resources/After_2018.png)
 
 
 ### Why the new subroutine is faster
