@@ -1,4 +1,4 @@
-# Module 2 Challenge, Deliverable 2 - VBA of Wall Street
+# Challenge2 , Deliverable 2 - VBA of Wall Street
 
 ## Overview of the Project
 
