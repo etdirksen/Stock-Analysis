@@ -1,5 +1,3 @@
-VBA of Wall Street
-
 ## Overview
 
 ### Purpose
